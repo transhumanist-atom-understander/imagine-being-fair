@@ -39,3 +39,9 @@ So, being fair, you cooperate.
 
 Now that we know that fair players don't betray anyone, let's assume not only that you are fair, but that you know I'm fair.
 Then you know I don't betray you, so you cooperate.
+
+## Conclusion
+
+Maybe reasoning about proof-based agents isn't as hard as we thought?
+We could have chosen a different definition of fairness years ago, and then we wouldn't be saying that fair players cooperate with each other because of magic.
+Although the equivalence of the two fairness definitions does require magic (that is, Lob's theorem).

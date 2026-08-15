@@ -23,7 +23,8 @@ So the old definition of fairness is that a fair player cooperates if and only i
 The new definition of fairness depends on another concept I'll have to introduce, which is betrayal.
 If I betray you, that means not only that I defect, but that I knew you would cooperate and defected anyway.
 
-The new definition of fairness is that a fair player defects if and only if it's possible that their opponent betrays them.
+Now, the new definition of fairness.
+A fair player defects if and only if it's possible that their opponent betrays them.
 
 ## If you're fair, and know I'm fair, you cooperate
 

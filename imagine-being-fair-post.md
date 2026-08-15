@@ -1,6 +1,4 @@
-One of the weird consequences of thinking of your decisions as the result of an algorithm are decision paradoxes when your environment not only depends on your decision through its causal consequences, but also depends on the algorithm in some other way, such as in David Lewis's scenario of a prisoner's dilemma with a replica of yourself.
-
-One model of rational agency for solving such problems is a proof-based agent, and one fun exercise with proof-based agents is to play them against each other in prisoner's dilemmas.
+One model of rational agency is a proof-based agent, and one fun exercise with proof-based agents is to play them against each other in prisoner's dilemmas.
 They exchange source code and try to decide whether to cooperate or defect by writing formal proofs.
 
 In this game, two agents that are in a certain sense fair—that cooperate if and only if there's a proof that their opponent cooperates—will cooperate with each other.
@@ -25,7 +23,7 @@ So the old definition of fairness is that a fair player cooperates if and only i
 The new definition of fairness depends on another concept I'll have to introduce, which is betrayal.
 If I betray you, that means not only that I defect, but that I knew you would cooperate and defected anyway.
 
-The new definition of fairness is that a fair player defects if and only if it's impossible that their opponent betrays them.
+The new definition of fairness is that a fair player defects if and only if it's possible that their opponent betrays them.
 
 ## If you're fair, and know I'm fair, you cooperate
 
@@ -47,4 +45,4 @@ Then you know I don't betray you, so you cooperate.
 Maybe reasoning about proof-based agents isn't as hard as we thought?
 Years ago, we could have made a different choice among equivalent definitions of fairness.
 Then we wouldn't be [saying that fair players cooperate with each other because of magic](https://www.lesswrong.com/w/logical-decision-theories?lens=an-introduction-to-logical-decision-theory-for-everyone-else#Logical_decision_theory).
-Although proving equivalence of the two fairness definitions does require magic (that is, Lob's theorem).
+Although proving equivalence of the two fairness definitions does require magic (that is, Löb's theorem).

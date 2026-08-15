@@ -1,0 +1,26 @@
+One of the weird consequences of thinking of your decisions as the result of an algorithm are decision paradoxes when your environment not only depends on your decision through its causal consequences, but also depends on the algorithm in some other way, such as in David Lewis's scenario of a prisoner's dilemma with a replica of yourself.
+
+One model of rational agency that may be able to get the right answers is a proof-based agent, and one fun exercise with proof-based agents is to play them against each other in prisoner's dilemmas.
+They exchange source code and try to decide whether to cooperate or defect by writing formal proofs.
+
+In this game, two agents that are in a certain sense fair—that cooperate if and only if there's a proof that their opponent cooperates—will cooperate with each other.
+
+Of course playing fair isn't playing to win, and the paper on this game moved on to agents that do better than the fair agents.
+But cooperation between fair agents is still special as the simplest interesting exercise in proof-based decision theory.
+
+Personally, though, I found this exercise a bit depressing, not only because it requires deep math for such question, but more importantly, because even once you've done it, you don't really have any sense of what kind of reasoning these fair agents are doing about each other.
+
+Recently though, I learned there's another equivalent definition of fairness.
+If you want to actually imagine being a fair agent deciding to cooperate, then read on.
+
+## Terminology and the new definition of fairness
+
+For talking about provability in English, I'll sometimes instead talk about possibility.
+If something's impossible, that means there's a proof it can't happen.
+I'll also sometimes say that a player knows something when I mean there's a proof of it.
+So the old definition of fairness is that a fair player cooperates if and only if they know their opponent cooperates, or that they defect if and only if it's possible that their opponent defects.
+
+The new definition of fairness depends on another concept I'll have to introduce, which is betrayal.
+If I betray you, that means not only that I defect, but that I knew you would cooperate and defected anyway.
+
+The new definition of fairness is that a fair player defects if and only if it's possible that their opponent betrays them.

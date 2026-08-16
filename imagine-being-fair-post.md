@@ -34,7 +34,7 @@ Why would you defect?
 You're fair, so it must be because it's possible that I defect.
 We're back where we started.
 
-As it turns out, Lob's Theorem guarantees that if we both go looking for proof of the other's cooperation, we both find one.
+As it turns out, Löb's theorem guarantees that if we both go looking for proof of the other's cooperation, we both find one.
 
 Next, let's switch to a different definition of fairness.
 If you want to actually imagine being a fair agent deciding to cooperate, then read on.

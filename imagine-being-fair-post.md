@@ -1,16 +1,20 @@
-One model of rational agency is a proof-based agent, and one fun exercise with proof-based agents is to play them against each other in prisoner's dilemmas.
-They exchange source code and try to decide whether to cooperate or defect by writing formal proofs.
+One model of rational agency is a proof-based agent.
+One fun exercise with proof-based agents is to play them against each other in prisoner's dilemmas.
+The players are computer programs that exchange source code and try to decide whether to cooperate or defect by writing formal proofs.
 
 In this game, two agents that are in a certain sense fair—that cooperate if and only if there's a proof that their opponent cooperates—will cooperate with each other.
 
 Of course, playing fair isn't playing to win, and [the paper on this game](https://arxiv.org/abs/1401.5577) defined a "prudent" player that does better than a fair one.
 But cooperation between fair agents is the simplest interesting exercise in proof-based decision theory.
 
-Personally, though, I found this exercise discouraging, and not only because it required deep math to answer such a simple question.
-These two fair players are looking for proofs of the other's cooperation, and you can prove they both find them.
-But I can't really imagine what reasoning these agents are doing about each other.
+I found this exercise discouraging, and not only because it required deep math to answer such a simple question.
+Even after doing the proof, I couldn't really imagine being a player in this game, reasoning through the situation and deciding to cooperate.
 
-Recently, I was trying out a different but [equivalent](https://www.lesswrong.com/posts/2JQzDZXjoG2opnAjk/my-payorian-fairbot-was-just-the-original-fairbot) definition of fairness, and found the proof of mutual cooperation to be not only elementary but satisfyingly explicit.
+Recently, I was trying out a different but [equivalent](https://www.lesswrong.com/posts/2JQzDZXjoG2opnAjk/my-payorian-fairbot-was-just-the-original-fairbot) definition of fairness.
+I found the proof of mutual cooperation to be not only elementary but satisfyingly explicit.
+
+I'll start by discussing mutual cooperation with the old definition of fairness, and try to communicate why it's so unsatisfying.
+Then I'll give the new definition of fairness, and walk you through the reasoning a fair agent could do to decide to cooperate.
 
 ## Mutual cooperation with the old definition of fairness
 

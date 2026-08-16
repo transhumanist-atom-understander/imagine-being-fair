@@ -11,9 +11,8 @@ These two fair players are looking for proofs of the other's cooperation, and yo
 But I can't really imagine what reasoning these agents are doing about each other.
 
 Recently, I was trying out a different but [equivalent](https://www.lesswrong.com/posts/2JQzDZXjoG2opnAjk/my-payorian-fairbot-was-just-the-original-fairbot) definition of fairness, and found the proof of mutual cooperation to be not only elementary but satisfyingly explicit.
-If you want to actually imagine being a fair agent deciding to cooperate, then read on.
 
-## Terminology and the new definition of fairness
+## Mutual cooperation with the old definition of fairness
 
 When talking about provability, I'll sometimes say that a player knows something when I mean there's a proof of it.
 So the old definition of fairness is that a fair player cooperates if and only if they know their opponent cooperates.
@@ -22,13 +21,29 @@ I'll also sometimes talk about "possibility".
 When I say something's impossible, that means there's a proof it can't happen.
 So another way to state the old definition of fairness is that a fair player defects if and only if it's possible that their opponent defects.
 
+Suppose that you're fair and you know I'm fair.
+Can you really rule out the possibility that I defect?
+
+Suppose I do defect. Why would that be?
+I'm fair, so it must be because it's possible that you defect.
+Why would you defect?
+You're fair, so it must be because it's possible that I defect.
+We're back where we started.
+
+As it turns out, Lob's Theorem guarantees that if we both go looking for proof of the other's cooperation, we both find one.
+
+Next, let's switch to a different definition of fairness.
+If you want to actually imagine being a fair agent deciding to cooperate, then read on.
+
+## Mutual cooperation with the new definition of fairness
+
 The new definition of fairness depends on a new concept: betrayal.
 If I betray you, that means not only that I defect, but that I knew you would cooperate and defected anyway.
 
 Now, the new definition of fairness.
 A fair player defects if and only if it's possible that their opponent betrays them.
 
-## If you're fair, and know I'm fair, you cooperate
+We'll show that if you're fair in this sense, and you know that I'm fair, you cooperate.
 
 First, a fact about betrayal.
 If there's a proof I cooperate with you—that is, if it's impossible that I defect against you—then it's also impossible that I betray you.

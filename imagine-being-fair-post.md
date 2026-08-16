@@ -35,10 +35,10 @@ If there's a proof I cooperate with you—that is, if it's impossible that I def
 
 With that in mind, we can prove that a fair player never betrays anyone.
 Suppose you're fair.
-And suppose you're playing against some other player that you know cooperates.
+And suppose you're playing against some other player, and have a proof that they cooperate.
 It's therefore impossible that they betray you.
 So, being fair, you cooperate.
-There's no one that you know cooperates but defect against—no one you betray.
+There's no one who you know will cooperate but still defect against—no one you betray.
 
 Now let's assume not only that you are fair, but that you know I'm fair.
 Then you know I don't betray you, so you cooperate.

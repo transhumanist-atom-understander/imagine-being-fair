@@ -76,5 +76,5 @@ Years ago, we could have made a different choice among equivalent definitions of
 Then we wouldn't be saying that [fair players cooperate with each other because of magic](https://www.lesswrong.com/w/logical-decision-theories?lens=an-introduction-to-logical-decision-theory-for-everyone-else#Logical_decision_theory).
 Although proving equivalence of the two fairness definitions does require magic (that is, Löb's theorem).
 
-By the way, though the "betray" terminology is new in this post, it's just an English translation of a suggestion from James Payor [which has been the subject of a few previous posts](https://www.lesswrong.com/w/payor-s-lemma).
+By the way, though the "betray" terminology is new in this post, it's just an English translation of a suggestion from James Payor, [which has been the subject of a few previous posts](https://www.lesswrong.com/w/payor-s-lemma).
 I thought [his explanation of the motivation](https://www.lesswrong.com/posts/LaCP6WyNzX8kiZn3w/payorian-cooperation-is-easy-with-kripke-frames?commentId=tQ4KqFQ8a5K8qt2Ye) was interesting.

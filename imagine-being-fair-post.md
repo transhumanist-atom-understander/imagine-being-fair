@@ -32,9 +32,11 @@ Suppose I do defect. Why would that be?
 I'm fair, so it must be because it's possible that you defect.
 Why would you defect?
 You're fair, so it must be because it's possible that I defect.
-We're back where we started.
+
+Can we really rule out such a circle of suspicion?
 
 As it turns out, Löb's theorem guarantees that if we both go looking for proof of the other's cooperation, we both find one.
+But there's something missing from this proof—perhaps you could call it a mechanism.
 
 Next, let's switch to a different definition of fairness.
 If you want to actually imagine being a fair agent deciding to cooperate, then read on.

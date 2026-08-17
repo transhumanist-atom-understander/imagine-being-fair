@@ -71,7 +71,7 @@ Then you know I don't betray you, so you cooperate.
 With the old definition of fairness, it seems like the game could go either way, and we rule out a plausible-looking outcome with some weird math fact.
 With the new definition, I can imagine being a fair player reasoning about my opponent: they're fair, so they don't betray anyone, so I'll cooperate.
 
-Maybe proof-based decision theory isn't as hard as we thought?
+To me, this is encouraging—maybe proof-based decision theory isn't as hard as we thought, right?
 Years ago, we could have made a different choice among equivalent definitions of fairness.
 Then we wouldn't be saying that [fair players cooperate with each other because of magic](https://www.lesswrong.com/w/logical-decision-theories?lens=an-introduction-to-logical-decision-theory-for-everyone-else#Logical_decision_theory).
 Although proving equivalence of the two fairness definitions does require magic (that is, Löb's theorem).

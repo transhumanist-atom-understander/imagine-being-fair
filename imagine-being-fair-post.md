@@ -13,7 +13,7 @@ Recently, I was trying out a different but [equivalent](https://www.lesswrong.co
 With the new definition, I found the proof of mutual cooperation to be not only elementary, but also satisfyingly explicit about the reasoning a fair player could do to decide to cooperate.
 
 I'll start by discussing mutual cooperation with the old definition of fairness, and try to communicate why it's so unsatisfying.
-Then I'll give the new definition of fairness, and we'll think through a fair vs fair matchup from the perspective of one of the players.
+Then I'll give the new definition of fairness, and we'll think through a fair-vs-fair match from the perspective of one of the players.
 
 ## Mutual cooperation with the old definition of fairness
 
@@ -69,7 +69,7 @@ Then you know I don't betray you, so you cooperate.
 
 ## Conclusion
 
-With the old definition of fairness, it seems like a fair vs fair matchup could go either way.
+With the old definition of fairness, it seems like a fair-vs-fair match could go either way.
 Defect-defect looks plausible, but we rule it out with some weird math fact.
 
 With the new definition, I can imagine being a fair player reasoning about my opponent: they're fair, so they don't betray anyone, so I'll cooperate.

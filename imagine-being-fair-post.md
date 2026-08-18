@@ -13,7 +13,7 @@ Recently, I was trying out a different but [equivalent](https://www.lesswrong.co
 With the new definition, I found the proof of mutual cooperation to be not only elementary, but also satisfyingly explicit about the reasoning a fair player could do to decide to cooperate.
 
 I'll start by discussing mutual cooperation with the old definition of fairness, and try to communicate why it's so unsatisfying.
-Then I'll give the new definition of fairness, and walk you through the reasoning a fair agent could do to decide to cooperate.
+Then I'll give the new definition of fairness, and we'll think through a fair vs fair matchup from the perspective of one of the players.
 
 ## Mutual cooperation with the old definition of fairness
 
@@ -28,7 +28,7 @@ When I say something's impossible, that means there's a proof it can't happen.
 So a fair player defects if and only if it's possible that their opponent defects.
 
 Suppose that you're fair and you know I'm fair.
-Mutual cooperation seems, if circular, at least consistent.
+Mutual cooperation seems, if circular, at least consistent: we each cooperate because the other (provably) does so.
 But can you really rule out the possibility that I defect?
 Mutual defection seems equally self-consistent.
 
@@ -53,8 +53,9 @@ If I betray you, that means not only that I defect, but that I knew you would co
 Now, the new definition of fairness.
 A fair player defects if and only if it's possible that their opponent betrays them.
 
-First, a fact about betrayal.
-If there's a proof that someone cooperates with you—that is, if it's impossible that they defect against you—then it's also impossible that they betray you.
+First, a basic fact about betrayal.
+Defecting against you is a necessary condition for betraying you.
+Therefore, if there's a proof that someone cooperates with you—that is, if it's impossible that they defect against you—then it's also impossible that they betray you.
 
 With that in mind, we can prove that a fair player never betrays anyone.
 Suppose you're fair.
@@ -68,10 +69,13 @@ Then you know I don't betray you, so you cooperate.
 
 ## Conclusion
 
-With the old definition of fairness, it seems like the game could go either way, and we rule out a plausible-looking outcome with some weird math fact.
+With the old definition of fairness, it seems like a fair vs fair matchup could go either way.
+Defect-defect looks plausible, but we rule it out with some weird math fact.
+
 With the new definition, I can imagine being a fair player reasoning about my opponent: they're fair, so they don't betray anyone, so I'll cooperate.
 
-To me, this is encouraging—maybe proof-based decision theory isn't as hard as we thought, right?
+To me, this is encouraging.
+Maybe proof-based decision theory isn't as hard as we thought, right?
 Years ago, we could have made a different choice among equivalent definitions of fairness.
 Then we wouldn't be saying that [fair players cooperate with each other because of magic](https://www.lesswrong.com/w/logical-decision-theories?lens=an-introduction-to-logical-decision-theory-for-everyone-else#Logical_decision_theory).
 Although proving equivalence of the two fairness definitions does require magic (that is, Löb's theorem).

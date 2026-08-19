@@ -42,13 +42,13 @@ Can we really rule out such a circle of suspicion?
 As it turns out, Löb's theorem guarantees that when we both go looking for proof of the other's cooperation, we both find it.
 But even though I can follow the argument, there's something missing—perhaps you could call it a mechanism.
 
-I thought I just had to live with this unsatisfying argument until I learned a new definition of fairness, which I'll give in the next section.
+I thought I just had to live with this unsatisfying argument, but then I learned a new definition of fairness, which I'll give in the next section.
 If you want to actually imagine being a fair agent deciding to cooperate, then read on.
 
 ## Mutual cooperation with the new definition of fairness
 
 The new definition of fairness depends on a new concept: betrayal.
-If I betray you, that means not only that I defect, but that I knew you would cooperate and defected anyway.
+If I betray you, that means not only that I defect, but that there's a proof that you cooperate and I defect anyway.
 
 Now, the new definition of fairness.
 A fair player defects if and only if it's possible that their opponent betrays them.

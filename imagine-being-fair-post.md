@@ -42,7 +42,7 @@ Can we really rule out such a circle of suspicion?
 As it turns out, Löb's theorem guarantees that when we both go looking for proof of the other's cooperation, we both find it.
 But even though I can follow the argument, there's something missing—perhaps you could call it a mechanism.
 
-Next, let's switch to a different definition of fairness.
+I thought I just had to live with this unsatisfying argument until I learned a new definition of fairness, which I'll give in the next section.
 If you want to actually imagine being a fair agent deciding to cooperate, then read on.
 
 ## Mutual cooperation with the new definition of fairness
